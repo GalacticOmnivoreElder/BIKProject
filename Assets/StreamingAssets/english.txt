@@ -1,61 +1,157 @@
-[O] Go To the kitchen #1
-[D] <color=#FFD700>Mom:</color> kids are here!
-[D] Kids: Hi mom!
-[Q] Have you eaten?
-[F] No -> U Must eat!
-[T] Yes! -> Perfect Lets go!
-[F] Im vegan -> WTF?
-[D] Mom: Thats all kids!
-[P] Kids: YAY LETS GO PLAY!!!
-[D] Finally!
-[O] MK Go To the garden #2
+[O] Find the computer password
+[D] <color=#FF4500>Mom:</color> The computer is locked again... I can’t open anything!
+[D] <color=#00BFFF>Marko:</color> Maybe the Goalkeeper changed it before he left.
+[D] <color=#FF69B4>Ana:</color> Let’s help you make a new one!
+[D] <color=#FFD700>Petar:</color> Or we could guess it. I bet it’s *goal123*!
+
+[Q] What makes a good password?
+[F] <color=#FFD700>Petar:</color> Use 12345! Easy to remember! -> <color=#FF4500>Mom:</color> That’s too easy—anyone could guess that.
+[T] <color=#00BFFF>Marko:</color> Mix letters, numbers, and symbols! -> <color=#FF4500>Mom:</color> Perfect! That’s strong and hard to hack.
+[F] <color=#FF69B4>Ana:</color> Maybe use our pet’s name? -> <color=#FF4500>Mom:</color> Oh no, people could guess that from our pictures.
+
+[D] <color=#FF4500>Mom:</color> But how will I remember such a strange password?
+[D] <color=#00BFFF>Marko:</color> You could write it down safely or use hints only you understand.
+
+[Q] Should we tell someone the new password?
+[F] <color=#FFD700>Petar:</color> Sure! I’ll tell my friends—it’s funny. -> <color=#FF4500>Mom:</color> No way! Then it’s not private anymore.
+[T] <color=#FF69B4>Ana:</color> No, passwords are secret. -> <color=#FF4500>Mom:</color> Correct! Keep it safe and never share it.
+[F] <color=#00BFFF>Marko:</color> Maybe we post it online so we don’t forget. -> <color=#FF4500>Mom:</color> Oh dear! That’s the *worst* place to keep it!
+
+[D] <color=#FF4500>Mom:</color> The screen says “Enter password”… let’s test what we learned!
+
+[P] <color=#AAAAAA>Computer:</color> Mini-game start — PASSWORD_PUZZLE
+
+[O] MK Check the computer for clues
+[D] <color=#AAAAAA>Computer:</color> Access granted! Welcome back, Goalkeeper.
+[D] <color=#FF69B4>Ana:</color> Look! There’s an email from someone called *Chat Woman*.
+[D] <color=#00BFFF>Marko:</color> It says “Don’t forget my CD.” That must be our next clue.
+[D] <color=#FFD700>Petar:</color> So the Goalkeeper was chatting instead of keeping goals?
+[D] <color=#FF4500>Mom:</color> Thank you, kids. You’ve been real password heroes!
+
+[O] MK Find Chat Woman’s apartment
+
 -
-[O] MK Go To the kitchen #1
-[D] Mom: kids are here!
-[D] Kids: Hi mom!
-[Q] Have you eaten?
-[F] No -> U Must eat!
-[T] Yes! -> Perfect Lets go!
-[F] Im vegan -> WTF?
-[D] Mom: Thats all kids!
-[O] MK Go To the garden #3
-[P] Kids: YAY LETS GO PLAY!!!
-[D] Finally!
+[O] MK Deliver the letters to the right mailboxes
+[D] <color=#B5651D>Mailman:</color> Careful there, kids! These letters are private.
+[D] <color=#00BFFF>Marko:</color> We’re looking for the Goalkeeper. Maybe one of these letters is for him!
+[D] <color=#FF69B4>Ana:</color> But we shouldn’t open them, right?
+[D] <color=#FFD700>Petar:</color> A tiny peek won’t hurt... right?
+
+[Q] Should we look inside the letters?
+[F] <color=#FFD700>Petar:</color> Let’s open one! Maybe it’s about football! -> <color=#B5651D>Mailman:</color> That’s breaking trust — never open someone’s mail.
+[T] <color=#FF69B4>Ana:</color> No, that’s private. We can just read the names. -> <color=#B5651D>Mailman:</color> Exactly! Letters belong to their owners.
+[F] <color=#00BFFF>Marko:</color> Let’s take a picture of the names. -> <color=#B5651D>Mailman:</color> Still wrong — sharing even names is unsafe.
+
+[D] <color=#B5651D>Mailman:</color> Privacy keeps people safe. Would you like strangers reading your secrets?
+[D] <color=#FF69B4>Ana:</color> No way! Even my diary has a lock.
+
+[Q] What if someone online asks for our address?
+[F] <color=#00BFFF>Marko:</color> Just tell them; maybe they’ll send a gift! -> <color=#B5651D>Mailman:</color> Bad idea — you don’t know who they are.
+[T] <color=#FF69B4>Ana:</color> Never share it without a parent’s permission. -> <color=#B5651D>Mailman:</color> Correct! Always ask an adult first.
+[F] <color=#FFD700>Petar:</color> I’ll post my address online so fans can write to me! -> <color=#B5651D>Mailman:</color> Oh dear — that could bring strangers to your door.
+
+[D] <color=#B5651D>Mailman:</color> These letters must go to the right homes. Can you help me sort them?
+
+[P] <color=#AAAAAA>System:</color> Mini-game start — MAILBOX_SORTING
+
+[O] MK Match each letter with its correct mailbox
+[D] <color=#AAAAAA>System:</color> Great job! Every letter found its home.
+[D] <color=#B5651D>Mailman:</color> Excellent work! Look — one letter is for <color=#FF1493>Chat Woman</color> on the next floor.
+[D] <color=#00BFFF>Marko:</color> That must be our next stop!
+[D] <color=#FFD700>Petar:</color> Maybe she’ll chat our ears off…
+[D] <color=#FF69B4>Ana:</color> Let’s go find her apartment!
+
+[O] MK Find Chat Woman’s apartment
 -
-[O] Go To the kitchen #1
-[D] Mom: kids are here!
-[D] Kids: Hi mom!
-[Q] Have you eaten?
-[F] No -> U Must eat!
-[T] Yes! -> Perfect Lets go!
-[F] Im vegan -> WTF?
-[O] MK Go To the garden #4
-[D] Mom: Thats all kids!
-[P] Kids: YAY LETS GO PLAY!!!
-[D] Finally!
-[O] MK Go To the garden #4
+[O] MK Help Chat Woman fix her keyboard
+[D] <color=#FF1493>Chat Woman:</color> Finally! Someone to help! My chat won’t stop buzzing!
+[D] <color=#00BFFF>Marko:</color> Wow, that’s a lot of messages.
+[D] <color=#FF69B4>Ana:</color> Who are you talking to?
+[D] <color=#FFD700>Petar:</color> Probably everyone on the planet!
+
+[Q] A stranger online asked for a photo. What should Chat Woman do?
+[F] <color=#FFD700>Petar:</color> Send it! Maybe they’re a fan! -> <color=#FF1493>Chat Woman:</color> Oh… maybe not?
+[T] <color=#FF69B4>Ana:</color> Don’t share it. Strangers might use it wrongly. -> <color=#FF1493>Chat Woman:</color> You’re right. I should be careful.
+[F] <color=#00BFFF>Marko:</color> Tell them your address too! -> <color=#FF1493>Chat Woman:</color> Oh dear, that’s dangerous!
+
+[D] <color=#FF1493>Chat Woman:</color> Sometimes people send mean comments too... it makes me sad.
+[D] <color=#00BFFF>Marko:</color> That’s not okay.
+
+[Q] What should she do if people are rude online?
+[T] <color=#00BFFF>Marko:</color> Block or report them and tell an adult. -> <color=#FF1493>Chat Woman:</color> That makes me feel safer already.
+[F] <color=#FFD700>Petar:</color> Be rude back! -> <color=#FF1493>Chat Woman:</color> That would just make things worse.
+[F] <color=#FF69B4>Ana:</color> Stay quiet and feel bad. -> <color=#FF1493>Chat Woman:</color> I guess that’s not healthy either.
+
+[D] <color=#FF1493>Chat Woman:</color> My keyboard’s missing some keys… could you fix it?
+
+[P] <color=#AAAAAA>System:</color> Mini-game start — KEYBOARD_REPAIR
+
+[O] MK Fix the keyboard and check her messages
+[D] <color=#AAAAAA>System:</color> All keys restored!
+[D] <color=#FF1493>Chat Woman:</color> Thank you! The Goalkeeper posted pictures of food at Grandma’s place!
+[D] <color=#00BFFF>Marko:</color> That’s our next clue!
+[D] <color=#FFD700>Petar:</color> Hope Grandma’s cooking something tasty!
+[D] <color=#FF69B4>Ana:</color> Let’s visit her apartment next!
+
+[O] MK Go to Grandma’s apartment
 -
-[O] Go To the kitchen #1
-[D] Mom: kids are here!
-[D] Kids: Hi mom!
-[Q] Have you eaten?
-[F] No -> U Must eat!
-[T] Yes! -> Perfect Lets go!
-[F] Im vegan -> WTF?
-[O] MK Go To the garden #5
-[D] Mom: Thats all kids!
-[P] Kids: YAY LETS GO PLAY!!!
-[D] Finally!
-[O] NEW #3
+[O] MK Help Grandma check the news
+[D] <color=#DAA520>Grandma:</color> Oh no! The internet says football makes you sick!
+[D] <color=#00BFFF>Marko:</color> That can’t be right!
+[D] <color=#FF69B4>Ana:</color> Let’s see if that’s real or fake.
+[D] <color=#FFD700>Petar:</color> Maybe it’s from a funny site?
+
+[Q] What should we do when we see strange news online?
+[T] <color=#00BFFF>Marko:</color> Check another source before believing it. -> <color=#DAA520>Grandma:</color> Oh, I see! Not everything online is true.
+[F] <color=#FFD700>Petar:</color> Share it with everyone fast! -> <color=#DAA520>Grandma:</color> That could scare people for no reason.
+[F] <color=#FF69B4>Ana:</color> Believe it right away! -> <color=#DAA520>Grandma:</color> Then we might get fooled by lies.
+
+[D] <color=#DAA520>Grandma:</color> I miss the Goalkeeper... he used to video call me every weekend.
+[D] <color=#FF69B4>Ana:</color> We can help you call him again!
+
+[Q] What’s the best way to stay in touch online?
+[T] <color=#FF69B4>Ana:</color> Video call safely—it’s like being together! -> <color=#DAA520>Grandma:</color> That makes me so happy!
+[F] <color=#FFD700>Petar:</color> Share your password so he can log in. -> <color=#DAA520>Grandma:</color> Oh no, passwords are private.
+[F] <color=#00BFFF>Marko:</color> Just stop talking—it’s easier. -> <color=#DAA520>Grandma:</color> That would make me very lonely.
+
+[D] <color=#DAA520>Grandma:</color> Can you clean my screen? These pop-ups keep shouting fake news!
+
+[P] <color=#AAAAAA>System:</color> Mini-game start — FAKE_NEWS_FILTER
+
+[O] MK Clear Grandma’s screen
+[D] <color=#AAAAAA>System:</color> All fake articles removed!
+[D] <color=#DAA520>Grandma:</color> Thank you! The Goalkeeper said he was heading to the kitchen!
+[D] <color=#FFD700>Petar:</color> Finally, some food clues!
+[D] <color=#00BFFF>Marko:</color> Let’s go there next.
+
+[O] MK Go to the kitchen
 -
-[O] Go To the kitchen #1
-[D] Mom: kids are here!
-[D] Kids: Hi mom!
-[Q] Have you eaten?
-[F] No -> U Must eat!
-[T] Yes! -> Perfect Lets go!
-[F] Im vegan -> WTF?
-[O] MK All Tasks completed #5
-[D] Mom: Thats all kids!
-[P] Kids: YAY LETS GO PLAY!!!
-[D] Finally!
+[O] MK Help the Cook prepare the meal
+[D] <color=#FF8C00>Cook:</color> These games keep charging me coins and gems!
+[D] <color=#00BFFF>Marko:</color> You probably clicked the buy button!
+[D] <color=#FF69B4>Ana:</color> It’s easy to spend too much online.
+[D] <color=#FFD700>Petar:</color> Maybe free games aren’t really free?
+
+[Q] What should the Cook do before buying in a game?
+[F] <color=#00BFFF>Marko:</color> Spend freely—it’s only virtual! -> <color=#FF8C00>Cook:</color> Wrong! It’s real money!
+[T] <color=#FFD700>Petar:</color> Ask permission before buying anything. -> <color=#FF8C00>Cook:</color> That’s smart! Keeps bills under control.
+[F] <color=#FF69B4>Ana:</color> Use someone else’s card. -> <color=#FF8C00>Cook:</color> That’s unsafe and dishonest.
+
+[D] <color=#FF8C00>Cook:</color> Maybe I should quit games altogether...
+[D] <color=#FF69B4>Ana:</color> No! Games can be fun *and* creative!
+
+[Q] How can we play safely?
+[T] <color=#FF69B4>Ana:</color> Make, build, and create instead of just buying. -> <color=#FF8C00>Cook:</color> That’s the best recipe for fun!
+[F] <color=#FFD700>Petar:</color> Spend more—it’s more fun! -> <color=#FF8C00>Cook:</color> Fun doesn’t come from money.
+[F] <color=#00BFFF>Marko:</color> Download every game you see. -> <color=#FF8C00>Cook:</color> That’s risky—some could be unsafe.
+
+[P] <color=#AAAAAA>System:</color> Mini-game start — COOKING_GAME
+
+[O] MK Find out what the Goalkeeper was doing here
+[D] <color=#AAAAAA>System:</color> Dish complete!
+[D] <color=#FF8C00>Cook:</color> The Goalkeeper? He was just here, eating everything!
+[D] <color=#00BFFF>Marko:</color> That means we’re close!
+[D] <color=#FFD700>Petar:</color> Let’s check the kitchen again.
+[D] <color=#FF69B4>Ana:</color> Maybe he left something behind.
+
+[O] MK Search for the Goalkeeper
